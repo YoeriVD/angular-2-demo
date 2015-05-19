@@ -7,20 +7,19 @@ if (typeof __decorate !== "function") __decorate = function (decorators, target,
     }
 };
 /// <reference path="typings/angular2/angular2.d.ts" />
-var angular_1 = require('angular2/angular');
+var angular2_1 = require("angular2/angular2");
 var MyAppComponent = (function () {
     function MyAppComponent() {
-        this.name = 'Alice';
+        this.name = 'Alice test';
     }
     MyAppComponent = __decorate([
-        angular_1.Component({
+        angular2_1.Component({
             selector: 'my-app'
         }),
-        angular_1.View({
+        angular2_1.View({
             templateUrl: 'views/app.html'
         })
     ], MyAppComponent);
     return MyAppComponent;
 })();
-angular_1.bootstrap(MyAppComponent);
-//# sourceMappingURL=app.js.map
+angular2_1.bootstrap(MyAppComponent);
