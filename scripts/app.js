@@ -8,6 +8,7 @@ var __decorate = this.__decorate || function (decorators, target, key, desc) {
 };
 /// <reference path="../typings/angular2/angular2.d.ts" />
 var angular2_1 = require('angular2/angular2');
+var scoretable_1 = require('scoretable');
 var MyAppComponent = (function () {
     function MyAppComponent() {
         this.name = 'Alice';
@@ -17,7 +18,8 @@ var MyAppComponent = (function () {
             selector: 'my-app'
         }),
         angular2_1.View({
-            templateUrl: 'views/app.html'
+            templateUrl: 'views/app.html',
+            directives: [scoretable_1.ScoreTable]
         })
     ], MyAppComponent);
     return MyAppComponent;
