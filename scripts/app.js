@@ -1,4 +1,4 @@
-var __decorate = this.__decorate || function (decorators, target, key, desc) {
+if (typeof __decorate !== "function") __decorate = function (decorators, target, key, desc) {
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
     switch (arguments.length) {
         case 2: return decorators.reduceRight(function(o, d) { return (d && d(o)) || o; }, target);
@@ -11,7 +11,7 @@ var angular2_1 = require('angular2/angular2');
 var scoretable_1 = require('scoretable');
 var MyAppComponent = (function () {
     function MyAppComponent() {
-        this.name = 'Alice';
+        this.name = 'Angular 2 attendees';
     }
     MyAppComponent = __decorate([
         angular2_1.Component({

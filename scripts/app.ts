@@ -12,6 +12,6 @@ import {ScoreTable} from 'scoretable';
 export class MyAppComponent {
     name: string;
     constructor() {
-        this.name = 'Alice';
+        this.name = 'Angular 2 attendees';
     }
 }
